@@ -1,0 +1,23 @@
+{
+  "name": "swimbot",
+  "version": "1.0.0",
+  "description": "This Property belongs to Lets Thumbs Up. To use, you will need permission",
+  "main": "swimbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NamanPrakash/Swim-Bot.git"
+  },
+  "author": "Lets Thumbs Up",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NamanPrakash/Swim-Bot/issues"
+  },
+  "homepage": "https://github.com/NamanPrakash/Swim-Bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
+  }
+}
