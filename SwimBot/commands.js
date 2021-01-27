@@ -5,7 +5,7 @@ module.exports = async function Command(msg)
     {
         console.log(msg.content);
         if(!msg.content.startsWith(process.env.PREFIX) || msg.author.bot) return;
-        args = msg.content.slice(prefix.length).trim().split(/ +/);
+        args = msg.content.slice(process.env.PREFIX.length).trim().split(/ +/);
         command = args.shift().toLowerCase();
 
         if(command == "hello"){
