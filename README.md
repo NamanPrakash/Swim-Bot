@@ -13,3 +13,4 @@ TOKEN=YOURTOKEN
 please enter your **bot** token after `TOKEN=`
 
 You can add commands in commands.js
+> Ignore the DS_STORE named files
