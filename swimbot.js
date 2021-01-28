@@ -1,5 +1,5 @@
 console.log("Started Swimming");
-require('dotenv').config();
+require('SwimBot/dotenv').config();
 commands = require('./SwimBot/commands');
 discord = require('discord.js')
 bot = new discord.Client();
